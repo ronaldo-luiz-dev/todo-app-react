@@ -1,20 +1,44 @@
-# todo-app-react
-App to register tasks  | React | Typescript
+# Todo-app-react :books:
+### 📜 App to register tasks, developd with React and Typescript tecnologies
+### 🚀 Part of proposed rocketseat challenges
 
-# install
-npm run dev
+### 📑 Table of Contents
+   * [Installing the project](#register-a-task)
+   * [Initial screen](#initial-screen)
+   * [Mark the tasks already done](#mark-the-tasks-already-done)
+   * [Delete tasks](#delete-tasks)
+   * [Repeated tasks](#repeated-tasks)
 
-# initial screnn
+
+## Installing the project
+###  <code>npm run dev</code>
+<br/>
+<br/>
+
+## Initial screen
 ![image](https://user-images.githubusercontent.com/121819777/218290740-b614d18a-2522-4560-a65b-36eb61839fb0.png)
+<br/>
+<br/>
 
-# register a task
-![image](https://user-images.githubusercontent.com/121819777/218290775-20d431f7-3e7d-4721-a276-dfbb077bc741.png)
+## Register a task
+![image](https://user-images.githubusercontent.com/121819777/218291127-ebb71807-3c00-42a9-aa9f-302ec67db1bc.png)
+<br/>
+<br/>
 
-# mark the tasks already done
+## Mark the tasks already done
 ![image](https://user-images.githubusercontent.com/121819777/218290829-3d609b99-dd53-41b5-8aec-56486a1bceaf.png)
+<br/>
+<br/>
 
-# delete tasks
+## Delete tasks
 ![image](https://user-images.githubusercontent.com/121819777/218291008-c6705031-31ac-4a55-8fc8-05cc38764335.png)
+<br/>
+<br/>
 
-# In the case of repeated tasks, the input brings a suggestive alert
+## Repeated tasks
 ![image](https://user-images.githubusercontent.com/121819777/218291037-1d3b2dac-f921-426c-9bed-4b55673f5409.png)
+<br/>
+<br/>
+<br/>
+
+### Desenvolvido por Ronaldo Luiz ❤️
