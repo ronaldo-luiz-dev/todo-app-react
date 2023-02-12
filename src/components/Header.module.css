@@ -1,0 +1,42 @@
+.header{
+    position: absolute;
+    height: 12.25rem;
+    left: 0px;
+    right: 0px;
+    top: 0.69rem;
+    background-color:var(--gray-700)
+}
+/* left calc(50% - 92px/2 + 17px);
+*começar pelo centro em direção a esquerda (50%)  
+* 92px => tamanho do elemento => 92/2 = 46 , metade do elemento no 50%
+* 17px => tamanho do elemento vizinho ao meio(22px/2) + metado do gap (12/6) = (+) +17 direita
+* no elemento vizinho fazer o mesmo calculo, mas em direção a esquerda (-) -52px 
+*/  
+.header span{
+    position: absolute;
+    color: var(--blue);
+    font-weight: 900;
+    line-height: 3.03rem;
+    font-size: 2.5rem;
+    left: calc(50% - 5.75rem/2 + 1.06rem);
+    top: 4.5rem;
+}
+
+/* left: calc(50% - 22px/2 - 52px); */
+.header label{
+    color: var(--purple);
+}
+
+.rocket{
+    position: absolute;
+    width: 1.87rem;
+    height: 1.87rem;
+    left: calc(50% - 1.87rem/2 - 3.25rem);
+    top: 82px;
+    color: var(--blue);
+
+}
+
+.rocket line{
+    color: var(--purple);
+}

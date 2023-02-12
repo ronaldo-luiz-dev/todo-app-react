@@ -1,0 +1,195 @@
+
+.taskForm{
+    /* background-color: #8a2be2; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: .5rem;
+
+    position: absolute;
+    width: 46rem;
+    height: 3.37rem;
+    left: calc(50% - 46rem/2);
+    top: 173px;
+
+}
+.taskForm input{
+    /* width: 39.87rem;
+    padding: 1rem;
+    margin-right: 0.5rem;  */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    color: var(--gray-300);
+    width: 39.9rem;
+    height: 3.4rem;
+
+    /* Gray 500 */
+    background: var(--gray-500);
+
+    /* Gray 700 */
+    border: .06rem solid var(--gray-700);
+    border-radius: .5rem;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  
+    
+}
+.taskInput{
+    border: .12rem var(--danger) solid !important;
+    outline: none; 
+}
+
+.taskForm  button[type=submit]{
+    /* width: 5.63rem;
+    padding: 1rem 1rem; */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    border: none;
+    width: 5.6rem;
+    height: 3.2rem;
+
+    /* Blue Dark */
+    background:var(--dark-blue);
+    border-radius: .5rem;
+    color: var(--gray-100);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.smallNotHide, .smallHide{
+    position: absolute;
+    width: 6.9rem;
+    height: 1.5rem;
+    left: calc(50% - 46rem/2);
+    top: 14.3rem;
+    color:var(--danger)
+  }
+  .smallHide{
+      visibility: hidden;
+  }
+  
+.tasksInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1.5rem;
+
+    position: absolute;
+    width: 46rem;
+    height: 18rem;
+    left: calc(50% - 46rem/2);
+    top: 18rem;
+}
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 2rem;
+
+    width: 46rem;
+    height: 1.2rem;
+}
+.summary div{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: .5rem;
+    font-size: .87rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+/* o primeiro span das div(todas) , recebe o estilo */
+.summary span:nth-of-type(1){
+    color: var(--blue);
+}
+
+.summary span:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .12rem .5rem;
+    background:var(--gray-400);
+    border-radius: 62.4rem;
+}
+
+.summary div:nth-of-type(2) > span:nth-of-type(1){
+    color: var(--purple);
+} 
+
+.emptyTasks{
+    background-color: var(--gray-600);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    gap: 1rem;
+    width: 46rem;
+    height: 15.2rem;
+
+    /* Grey 400 */
+
+    border-top: .06rem solid var(--gray-400);
+    border-radius: .5rem;
+
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.clipboard{
+    width: 3.5rem;
+    height: 3.5rem;
+    color: var(--gray-400);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.emptyTasks div p{
+
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color:var(--gray-300);
+    font-weight: 700;
+}
+    
+.emptyTasks p:nth-of-type(2){
+    font-weight: 300;
+}
+
+
+.taskList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: .75rem;
+}

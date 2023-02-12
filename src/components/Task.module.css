@@ -1,0 +1,117 @@
+.task{
+    /* margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    background-color: lightslategray;
+    color: white; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: .75rem;
+
+    width: 46rem;
+    height: 4.5rem;
+
+    /* Gray 500 */
+    background: var(--gray-500);
+
+    /* Gray 400 */
+    border: .06rem solid var(--gray-400);
+    box-shadow: 0px .12rem .5rem rgba(0, 0, 0, 0.06);
+    border-radius: .5rem;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.isChecked span {
+    text-decoration: line-through;
+}
+
+.isNotChecked span {
+    text-decoration: none
+}
+
+ .check , .checked{
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 0;
+    margin: 0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* estilização dos elementos svg */
+.checked{
+  color: var(--dark-purple); 
+}
+
+.checked circle{
+    fill: var(--dark-purple);
+    fill-opacity: .70;
+}
+.checked polyline{
+    stroke: var(--gray-100);
+    transition: background-color 0.3s;
+    /* color: var(--dark-blue); */
+}
+
+.checked:hover > circle:hover {
+    fill: var(--purple);
+    fill-opacity: .60;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.check{
+    color: var(--blue); 
+}
+  
+.check circle:hover {
+    color: var(--dark-blue);
+    fill: var(--dark-blue);
+    fill-opacity: 0.30;
+    background-color: aqua;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+
+
+.task span {
+    width: 39.5rem;
+    height: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .87rem;
+    line-height: 140%;
+    /* or 20px */
+    /* Gray 100 */
+    color:var(--gray-100);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.trash {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: .25rem;
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.trash:hover{
+    color:var(--danger);
+    cursor: pointer;
+}
